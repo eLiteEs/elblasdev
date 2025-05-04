@@ -1,0 +1,143 @@
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+}
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+}
+
+body {
+    background: linear-gradient(75deg, rgb(1, 1, 1), rgb(3, 3, 3));
+    margin: 0px 25% 0px 25%;
+    color: whitesmoke;
+}
+
+header {
+    padding: 20px 0px 12px 0px;
+    position: relative;
+}
+
+header h2 {
+    display: inline;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a, nav ul li select {
+    color: whitesmoke;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    padding: 6px;
+    transition-duration: 0.3s;
+}
+
+nav ul li select {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+nav ul li select option {
+    background: #111;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    font-weight: bold;
+}
+
+section {
+    padding: 6px 12px;
+    background: rgb(28, 28, 28);
+}
+
+section h2, article h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+article {
+    padding: 4px 6px;
+    margin-top: 10px;
+}
+
+section, article {
+    border: 2px solid rgb(30, 30, 30);
+    border-radius: 10px;
+}
+
+.tools {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.tools li {
+    padding: 6px;
+    background: rgb(22, 22, 22);
+    display: inline-flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    gap: 6px;
+}
+
+.tools li.lang:hover {
+    text-decoration: underline;
+}
+
+.tools li svg, 
+.tools li img {
+    height: 16px;
+    width: 16px;
+    flex-shrink: 0;
+}
+
+.projects {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.projects li {
+    border: 2px solid #111;
+    border-radius: 10px;
+    background: #222;
+    padding: 12px;
+    text-align: center;
+    width: 40%;
+    display: inline-grid;
+    height: 200px;
+    margin: 10px;
+}
+
+.projects li a {
+    color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+}
