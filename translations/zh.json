@@ -1,0 +1,14 @@
+[
+    {"id": "lab_projects", "txt": "项目"},
+    {"id": "lab_introduction", "txt": "介绍"},
+    {"id": "lab_introductiontxt", "txt": "我是Blas，来自西班牙马德里的14岁C++、Java和Web开发者，拥有5年经验。"},
+    {"id": "lab_langandtools", "txt": "语言与工具"},
+    {"id": "lab_langandtoolsintructions", "txt": "点击编程语言查看相关项目。"},
+    {"id": "lab_recentprojects", "txt": "最近项目"},
+    {"id": "lab_tablasintroduction", "txt": "一个可在终端使用的电子表格程序，用C++编写。"},
+    {"id": "lab_checkmorelink", "txt": "了解更多关于此项目的信息。"},
+    {"id": "lab_alicodeintroduction", "txt": "使用Java和JFrame开发的轻量级IDE。"},
+    {"id": "lab_epi2introduction", "txt": "用C++编写的简单编程语言。"},
+    {"id": "lab_elitecorreointroduction", "txt": "使用HTML和Firebase实时数据库开发的电子邮件客户端。"},
+    {"id": "lab_licensetxt", "txt": "采用GNU GPL v3许可"}
+]

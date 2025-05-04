@@ -1,0 +1,14 @@
+[
+    {"id": "lab_projects", "txt": "प्रोजेक्ट्स"},
+    {"id": "lab_introduction", "txt": "परिचय"},
+    {"id": "lab_introductiontxt", "txt": "मैं ब्लास हूँ, मैड्रिड, स्पेन का एक 14 वर्षीय C++, Java और वेब डेवलपर, जिसे 5 साल का अनुभव है।"},
+    {"id": "lab_langandtools", "txt": "भाषाएँ और उपकरण"},
+    {"id": "lab_langandtoolsintructions", "txt": "प्रोजेक्ट्स देखने के लिए किसी प्रोग्रामिंग भाषा पर क्लिक करें।"},
+    {"id": "lab_recentprojects", "txt": "हाल के प्रोजेक्ट्स"},
+    {"id": "lab_tablasintroduction", "txt": "टर्मिनल में उपयोग किया जा सकने वाला स्प्रेडशीट प्रोग्राम। C++ में बनाया गया।"},
+    {"id": "lab_checkmorelink", "txt": "इस प्रोजेक्ट के बारे में अधिक जानें।"},
+    {"id": "lab_alicodeintroduction", "txt": "हल्का IDE, Java और JFrame से बनाया गया।"},
+    {"id": "lab_epi2introduction", "txt": "C++ में बना एक सरल प्रोग्रामिंग भाषा।"},
+    {"id": "lab_elitecorreointroduction", "txt": "HTML और Firebase Realtime Database का उपयोग करके बनाया गया ईमेल क्लाइंट।"},
+    {"id": "lab_licensetxt", "txt": "GNU GPL v3 के तहत लाइसेंस प्राप्त"}
+]

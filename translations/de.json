@@ -1,0 +1,14 @@
+[
+    {"id": "lab_projects", "txt": "Projekte"},
+    {"id": "lab_introduction", "txt": "Einführung"},
+    {"id": "lab_introductiontxt", "txt": "Ich bin Blas, ein 14-jähriger C++, Java und Web-Entwickler aus Madrid, Spanien, mit 5 Jahren Erfahrung."},
+    {"id": "lab_langandtools", "txt": "Sprachen und Werkzeuge"},
+    {"id": "lab_langandtoolsintructions", "txt": "Klicke auf eine Programmiersprache, um Projekte damit zu sehen."},
+    {"id": "lab_recentprojects", "txt": "Aktuelle Projekte"},
+    {"id": "lab_tablasintroduction", "txt": "Ein Tabellenkalkulationsprogramm, das im Terminal verwendet werden kann. Geschrieben in C++."},
+    {"id": "lab_checkmorelink", "txt": "Mehr über dieses Projekt erfahren."},
+    {"id": "lab_alicodeintroduction", "txt": "Leichtgewichtige IDE, erstellt mit Java und JFrame."},
+    {"id": "lab_epi2introduction", "txt": "Eine einfache Programmiersprache, erstellt mit C++."},
+    {"id": "lab_elitecorreointroduction", "txt": "Ein E-Mail-Client, erstellt mit HTML und Firebase Echtzeit-Datenbank."},
+    {"id": "lab_licensetxt", "txt": "Lizenziert unter GNU GPL v3"}
+]

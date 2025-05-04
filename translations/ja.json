@@ -1,0 +1,14 @@
+[
+    {"id": "lab_projects", "txt": "プロジェクト"},
+    {"id": "lab_introduction", "txt": "自己紹介"},
+    {"id": "lab_introductiontxt", "txt": "私はBlas、14歳のC++、Java、Web開発者で、スペインのマドリード出身、5年の経験があります。"},
+    {"id": "lab_langandtools", "txt": "言語とツール"},
+    {"id": "lab_langandtoolsintructions", "txt": "プログラミング言語をクリックして、その言語で作られたプロジェクトを見る。"},
+    {"id": "lab_recentprojects", "txt": "最近のプロジェクト"},
+    {"id": "lab_tablasintroduction", "txt": "ターミナルで使用できる表計算プログラム。C++で作成。"},
+    {"id": "lab_checkmorelink", "txt": "このプロジェクトの詳細を見る。"},
+    {"id": "lab_alicodeintroduction", "txt": "JavaとJFrameを使用した軽量IDE。"},
+    {"id": "lab_epi2introduction", "txt": "C++で作られたシンプルなプログラミング言語。"},
+    {"id": "lab_elitecorreointroduction", "txt": "HTMLとFirebase Realtime Databaseを使用して作成されたメールクライアント。"},
+    {"id": "lab_licensetxt", "txt": "GNU GPL v3でライセンスされています"}
+]
