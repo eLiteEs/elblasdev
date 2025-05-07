@@ -209,3 +209,72 @@ ul#project-list li:hover img {
     filter: brightness(0.9);
     transform: scale(1.01);
 }
+
+
+/* ===== MOBILE ADJUSTMENTS (NEW CODE BELOW) ===== */
+@media (max-width: 768px) {
+    body {
+        margin: 0 5%; /* Reduced side margins */
+    }
+    
+    header {
+        padding: 15px 0;
+        text-align: center;
+    }
+    
+    nav {
+        position: static;
+        transform: none;
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    nav ul {
+        justify-content: center;
+    }
+    
+    .projects li, ul#project-list li {
+        width: 100% !important; /* Full width cards */
+        margin: 8px 0 !important; /* Stack vertically */
+        display: block !important; /* Reset grid */
+    }
+    
+    /* Adjust project card height for mobile */
+    .projects li {
+        height: auto;
+        min-height: 150px;
+        padding: 10px;
+    }
+    
+    /* Make tools wrap better */
+    .tools li {
+        margin-right: 3px;
+        margin-bottom: 3px;
+        padding: 4px;
+    }
+    
+    /* Slightly reduce blur on mobile */
+    ul#project-list li img {
+        filter: blur(3px) brightness(0.7);
+    }
+}
+
+/* Small mobile tweaks */
+@media (max-width: 480px) {
+    body {
+        margin: 0 3%;
+    }
+    
+    nav ul li a, nav ul li select {
+        padding: 4px;
+        font-size: 14px;
+    }
+    
+    section, article {
+        padding: 8px;
+    }
+    
+    ul#project-list li .content {
+        padding: 12px;
+    }
+}
