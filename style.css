@@ -206,8 +206,15 @@ ul#project-list-small li {
     background: #0c0c0c;
     overflow: hidden;
     display: inline-block;
+    padding: 12px 10px;
+
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
 }
 
+ul#project-list-small li:hover {
+    background: #1a1a1a;
+    cursor: pointer;
+}
 
 ul#project-list li .image-container {
     width: 100%;
