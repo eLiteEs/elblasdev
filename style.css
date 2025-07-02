@@ -154,10 +154,28 @@ footer {
     padding-bottom: 12px;
 }
 
+.gallery-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.gallery-container {
+    overflow: hidden;
+    width: 100%;
+}
+
 ul#project-list {
+    display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
+    transition: transform 0.4s ease;
+    width: 100%;
+}
+
+ul#project-list li {
+    flex: 0 0 100%;
+    margin: 0;
 }
 
 ul#project-list li {
@@ -168,26 +186,43 @@ ul#project-list li {
     position: relative;
     overflow: hidden;
     width: 100%;
-    /* Container height will match image height */
-    display: inline-block; /* Makes container shrink to content */
+    display: inline-block;
 }
+
+ul#project-list-small {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 10px;
+}
+
+ul#project-list-small li {
+    flex: 0 0 49%;
+    box-sizing: border-box;
+    border: 2px solid #111;
+    border-radius: 10px;
+    background: #0c0c0c;
+    overflow: hidden;
+    display: inline-block;
+}
+
 
 ul#project-list li .image-container {
     width: 100%;
     display: block;
-    /* No height specified - will follow image height */
 }
 
 ul#project-list li img {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    height: auto;
     display: block;
     filter: blur(4px) brightness(0.7);
     transition: all 0.4s ease;
-    transform: scale(1.05); /* Hide blur edges */
+    transform: scale(1.05);
 }
 
-/* Content overlay */
 ul#project-list li .content {
     position: absolute;
     top: 0;
@@ -204,77 +239,38 @@ ul#project-list li .content {
     z-index: 1;
 }
 
-/* Hover effects */
 ul#project-list li:hover img {
     filter: brightness(0.9);
     transform: scale(1.01);
 }
 
-
-/* ===== MOBILE ADJUSTMENTS (NEW CODE BELOW) ===== */
-@media (max-width: 768px) {
-    body {
-        margin: 0 5%; /* Reduced side margins */
-    }
-    
-    header {
-        padding: 15px 0;
-        text-align: center;
-    }
-    
-    nav {
-        position: static;
-        transform: none;
-        width: 100%;
-        margin-top: 15px;
-    }
-    
-    nav ul {
-        justify-content: center;
-    }
-    
-    .projects li, ul#project-list li {
-        width: 100% !important; /* Full width cards */
-        margin: 8px 0 !important; /* Stack vertically */
-        display: block !important; /* Reset grid */
-    }
-    
-    /* Adjust project card height for mobile */
-    .projects li {
-        height: auto;
-        min-height: 150px;
-        padding: 10px;
-    }
-    
-    /* Make tools wrap better */
-    .tools li {
-        margin-right: 3px;
-        margin-bottom: 3px;
-        padding: 4px;
-    }
-    
-    /* Slightly reduce blur on mobile */
-    ul#project-list li img {
-        filter: blur(3px) brightness(0.7);
-    }
+ul#project-list li .image-container:hover {
+    cursor: pointer;
 }
 
-/* Small mobile tweaks */
-@media (max-width: 480px) {
-    body {
-        margin: 0 3%;
-    }
-    
-    nav ul li a, nav ul li select {
-        padding: 4px;
-        font-size: 14px;
-    }
-    
-    section, article {
-        padding: 8px;
-    }
-    
-    ul#project-list li .content {
-        padding: 12px;
-    }
+ul#project-list li:hover .content {
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 100%);
+}
+
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #3d3d3d;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    color: whitesmoke;
+    border: 0;
+    padding: 5px;
+    border-radius: 25%;
+}
+
+#prev-btn {
+    left: 10px;
+}
+
+#next-btn {
+    right: 10px;
 }
