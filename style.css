@@ -281,3 +281,31 @@ ul#project-list li:hover .content {
 #next-btn {
     right: 10px;
 }
+
+.project-site h2, .project-site h1 {
+    text-align: left;
+}
+
+.project-site>#project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.project-site>ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.project-site>ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #222;
+    border-radius: 10px;
+    width: fit-content;
+    float: left;
+    margin-right: 10px;
+}

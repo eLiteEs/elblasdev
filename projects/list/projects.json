@@ -1,0 +1,10 @@
+{
+    "tablas": {
+        "title": "Tablas",
+        "description": "Spreadsheet program which is runned on the console.",
+        "categories": ["C++", "Console", "Office"],
+        "image": "tablas-img1.png",
+        "content": "**Tablas is a console application made in C++ which is a spreadsheet like Excel but it's rendered on the console.**\n## History \nThe project started a long time ago, in 2024, with LaQTeOS, an OS made also in C++, needed more programs like code editors, text editors, etc... I coded Tablas as a alpha on that time. Then I finished the alpha on the same month and abandoned that project until a few months ago.\nI updated all the code making the program prettier, fixing bugs, adding features, making the code more undestandable and more readable, etc... It's closed-source but I'm thinking of making it open-source.\n## Features\n1. **Sheets**: One file can have different sheets, like tabs.\n2. **Formulas**: Although this features isn't complete, you can use formulas like `=CALC(2+2)` or `=GET(A1` (those are the only formulas right now).",
+        "lang": "cpp"
+    }
+}
