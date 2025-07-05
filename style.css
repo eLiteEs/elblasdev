@@ -309,3 +309,8 @@ ul#project-list li:hover .content {
     float: left;
     margin-right: 10px;
 }
+
+.project-site img {
+    max-width: 100%;
+    height: auto;
+}	
